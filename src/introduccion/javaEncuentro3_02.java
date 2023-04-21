@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package introduccion;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author franco
+ */
+public class javaEncuentro3_02 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String frase = "eureka";
+        Scanner leer = new Scanner(System.in);
+        System.out.println("ingrese la palabra clave");
+        String palabra = leer.nextLine();
+        if(palabra.equals(frase)){
+            System.out.println("Correcto");
+        }else {
+            System.out.println("Incorrecto");
+        }
+    }
+    
+}
